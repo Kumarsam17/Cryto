@@ -47,7 +47,7 @@ const Coins = () => {
     <Container maxW={"container.xl"}>
     {
       loader ?<Loader /> :<>
-      <HStack p={"5"} spacing={"10"}>
+      <HStack wrap={"wrap"} justifyContent={"space-evenly"} p={"5"} spacing={"10"}>
       <RadioGroup  onChange={setCurrency}>
        <Radio value='inr'>₹</Radio>
        <Radio value='usd'>$</Radio>
