@@ -104,7 +104,7 @@ const CoinsDetails = () => {
         <Chart arr={chartArray} currency={CurrenySymbol} days={days} />
         <HStack p={"4"}>
           {
-            btn.map((i)=>(<Button key={i} onClick={()=>switchChartStats(i)}>{i}</Button>))
+            btn.map((i)=>(<Button overflowX={"auto"} key={i} onClick={()=>switchChartStats(i)}>{i}</Button>))
           }
         </HStack>
           <Box width={"full"} borderWidth={1}>
