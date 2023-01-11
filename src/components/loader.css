@@ -1,0 +1,23 @@
+.main-loader{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.loader{
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    border-top: 10px solid white;
+    border-radius: 50%;
+    animation: round 1s infinite linear;
+}
+@keyframes round {
+    to{
+        transform: rotateZ(360deg);
+    }
+    
+}
