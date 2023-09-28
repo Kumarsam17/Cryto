@@ -1,6 +1,6 @@
 import { Avatar, Box, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
-
+import pic from "../assets/IMG_20230126_122431.jpg"
 const footer = () => {
   return (
     <Box bgColor={"blackAlpha.900"} color={"whiteAlpha.700"} minH={"48"}
@@ -15,7 +15,7 @@ const footer = () => {
     </VStack>
 
     <VStack>
-        <Avatar src={"https://github.dev/Kumarsam17/Crypto/blob/main/src/assets/IMG_20230126_122431.jpg"} boxSize={"28"} mt={["4" , "0"]} />
+        <Avatar src={pic} boxSize={"28"} mt={["4" , "0"]} />
         <Text>Our Founder</Text>
     </VStack>
 
